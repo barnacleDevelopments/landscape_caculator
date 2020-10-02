@@ -1,0 +1,38 @@
+User Input Values {
+
+    ADDRESS: String 
+
+    PLOT_LENGTH + PLOT_WIDTH (In Feet): Number
+
+    TYPE_OF_GRASS (fescue, bentgrass or campus): String
+
+    NUMBER_OF_TREES: Number
+}
+
+Other Values {
+
+    SQUARE_FOOTAGE = PLOT_LENGTH * PLOT_WIDTH
+
+    TOTAL_GRASS_COST = SQUARE_FOOTAGE * GRASS_TYPE_COST
+
+    BASE_LABOUR_CHARGE ($1000): Number
+
+    TREE_COST ($100): Number
+
+    TOTAL_COST (0): Number
+}
+
+pseudo code  {
+    #get all input values from user
+    #caculate surface area of (plot * grass type selection cost per square foot)
+    #caculate tree cost 
+    #add BASE_LABOUR_CHARGE + TOTAL_GRASS_COST + TOTAL_TREE_COST
+    #if SQUARE_FOOTAGE is more than 5000 add $500 to total. 
+}
+
+
+
+
+
+
+
